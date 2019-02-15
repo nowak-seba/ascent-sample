@@ -26,7 +26,7 @@ microservicePipeline {
     serviceToTest = 'ascent-gateway'
 
     //Directory containing JSON files for Cucumber reports
-    cucumberReportDirectory = 'vetservices-refdata-inttest/target'
+    cucumberReportDirectory = 'vetservices-refdata-inttest/target/site'
     cucumberOpts = '--tags @DEV'
     containerPort = 8080
 
